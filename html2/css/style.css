@@ -1,0 +1,26 @@
+ /* todo o corpo - fundo da pagina */
+body{
+    background-color: blanchedalmond;
+}
+
+/* todo o título */
+h1{
+    color: blue;
+    text-align: center;
+}
+
+/* toda classe */
+.imagens{
+    size: 200px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* todo o paragrafo */
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: red;
+}
+
