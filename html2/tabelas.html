@@ -9,8 +9,8 @@
 <body>
 
     <table>
+        <!-- Cabeçalho -->
         <thead>
-            <!-- Cabeçalho -->
             <tr>
                 <th>RA</th>
                 <th>Nome</th>
@@ -48,6 +48,15 @@
             </tr>
         </tfoot>
     </table>
+
+    <!-- promessa que tera um botão - ajuda na acessibilidade-->
+    <div role="button">Place Order</div>
+    <a role="menuitem">Assistive tech users perceive this element as an item in a menu, not a
+        link.</a>
+    <a aria-label="Assistive tech users can only perceive the contents of this aria-label, not
+        the link text">Link Text</a>
+    <!-- Botão de mute e desmute - vem desligado -->
+    <button aria-pressed="false">Mute</button>
 
 
     <br>

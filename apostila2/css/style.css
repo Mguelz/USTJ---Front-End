@@ -1,0 +1,39 @@
+#titulo {
+    color: green;
+    text-align: center;
+}
+
+/* somente elementos do tipo p que tenham id iagual a descrição */
+p#descricao {
+    color: blue;
+    padding: 12px;
+}
+
+p.promocao {
+    text-align: center;
+    background-color: lightgreen;
+}
+
+#titulos-cursos{
+    padding: 12px;
+}
+
+.nova {
+    color: white;
+}
+
+p.final-pagina#rodape {
+    background-color: lightgray;
+    text-align: center;
+}
+
+/* todo curso e novo-curso tem essa cor de fundo */
+.curso, .novo-curso, #contato {
+    padding: 12px;
+    border: 1px solid lightgray;
+    background-color: rgb(172, 182, 212);
+}
+
+.novo-curso {
+    color: red;
+}
