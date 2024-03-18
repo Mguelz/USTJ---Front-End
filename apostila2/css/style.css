@@ -3,18 +3,21 @@
     text-align: center;
 }
 
-/* somente elementos do tipo p que tenham id iagual a descrição */
+/* somente elementos do tipo p que tenham id iagual a descrição 
+id descricao da tag p*/
 p#descricao {
     color: blue;
     padding: 12px;
 }
 
+/* 
+class promocao da tag p */
 p.promocao {
     text-align: center;
     background-color: lightgreen;
 }
 
-#titulos-cursos{
+#titulos-cursos {
     padding: 12px;
 }
 
@@ -28,7 +31,9 @@ p.final-pagina#rodape {
 }
 
 /* todo curso e novo-curso tem essa cor de fundo */
-.curso, .novo-curso, #contato {
+.curso,
+.novo-curso,
+#contato {
     padding: 12px;
     border: 1px solid lightgray;
     background-color: rgb(172, 182, 212);
@@ -37,3 +42,20 @@ p.final-pagina#rodape {
 .novo-curso {
     color: red;
 }
+
+body {
+    background-color: rgb(218, 222, 226);
+}
+
+#contatos{
+    margin: 12px;
+}
+
+#rodape{
+    border: 1px solid black;
+}
+
+/* Alinha um ao lado do outro */
+/* #juncao{
+    display: flex;
+} */

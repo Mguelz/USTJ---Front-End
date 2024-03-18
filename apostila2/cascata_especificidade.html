@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cascata e Especificidade</title>
+    <link rel="stylesheet" href="css/cascata_especificidade.css">
+
+    <style>
+        /*especifidade: 1-0-0 */
+        /* dá para pensar que é uma centena de pontos */
+        /* #titulo {
+            color: blue;
+        } */
+
+        /* especificidade: 0-1-0 */
+        /* dá para pensar que é uma dezena de pontos */
+        /* .descricao {
+            color: green;
+        } */
+
+        /* especificidade: 0-0-1 */
+        /* dá para pensar que é um único ponto */
+        /* p {
+            color: red;
+        } */
+
+        /* especificidade: 0-1-1 */
+        /* 11 pontos */
+        .principal article {
+            background-color: lightblue;
+        }
+
+        /* especificidade: 0-0-2 */
+        /* 2 pontos */
+        /* main article {
+            border: 1px solid black;
+        } */
+
+        /* main é um seletor e article é outro. main tem especificidade 1 (pois tem só um
+        tipo) e article tem especificidade 1 (pois também tem somente um tipo) */
+        main, article {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="principal">
+        <article>
+            <p id="titulo" class="descricao">
+                Algoritmo de especificidade do CSS</p>
+        </article>
+    </main>
+</body>
+
+</html>
