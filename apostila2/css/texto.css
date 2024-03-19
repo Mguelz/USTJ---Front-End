@@ -2,14 +2,21 @@
     color: #0000FF;
     font-family: 'Comforter', cursive;
     font-size: 20px;
-    }
-    /* professor parou na pag 58 */
+}
 
-    .farmacia{
-        font: italic bold 20px Arial, Helvetica, sans-serif;
-        font-size: 20px;
-        font-style: italic;
-        font-weight: bold;
-        /* risca a linha */
-        text-decoration: line-through; 
-    }
+/* professor parou na pag 58 */
+
+.farmacia {
+    font: italic bold 20px Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    /* italico */
+    font-style: italic;
+    /* negrito */
+    font-weight: bold;
+    /* risca a linha */
+    text-decoration: line-through;
+}
+
+body{
+    padding: 12px;
+}
