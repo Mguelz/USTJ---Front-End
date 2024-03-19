@@ -1,0 +1,42 @@
+/* com o !important ele irá dar prioridade nele, ou seja
+irá sobrescrever/ignorar todas as regras que vierem após */
+/* p {
+    color: red !important;
+}
+p {
+    color: yellow;
+} */
+/* regras complitantes pag 47*/
+
+/* especificidade: 1-0-0 */
+#titulo {
+    color: blue;
+}
+
+/* especificidade: 0-1-0 */
+.descricao{
+    color: green;
+}
+
+/* especificidade: 0-0-1 */
+p{
+    color: red;
+}
+
+
+
+/* especificidade: 0-1-1 */
+.principal article{
+    background-color: rgb(216, 33, 201);
+}
+
+/* especificidade: 0-0-2 */
+main article{
+    background-color: beige;
+}
+
+
+
+main article{
+    border: 1px solid black
+}

@@ -1,0 +1,29 @@
+p {
+    padding: 12px;
+}
+
+.engenharia {
+    background-color: green;
+    color: rgb(17, 226, 226);
+}
+
+.farmacia {
+    /* não colocar um espaço em branco entre
+    rgb e o símbolo ( não funciona */
+    color: rgb(255, 0, 0);
+    /* observe que valores iguais para as três cores sempre
+    resultam num tom de cinza. Quanto mais próximo de 0, mais
+    próximo de preto. Quanto mais próximo de 255, mais próximo de
+    branco. */
+    background-color: rgb(240, 240, 240);
+}
+
+.biologia{
+    color: #057805;
+    background-color: #00ff00;
+}
+
+.matematica {
+    background-color: #CCC;
+    color: #000
+}
