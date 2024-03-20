@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A propriedade display</title>
+
+    <style>
+        /* tres maneiras diferentes de especificar cores */
+        /* hexadecimal */
+        p {
+            background-color: #ccc;
+        }
+
+        /* rgb */
+        a {
+            background-color: rgb(202, 184, 231);
+        }
+
+        footer {
+            background-color: beige;
+        }
+
+        button {
+            background-color: greenyellow;
+        }
+
+        .professores {
+            /* para conseguir alterar */
+            display: block;
+            /* o css nao ira aplicar sem o display block */
+            width: 200px;
+            height: 200px;
+        }
+
+        .engenharia {
+            /* assim o p nao ocupa toda a linha - vai somente até o texto */
+            display: inline-block;
+            width: 300px;
+            height: 200px;
+        }
+
+        .farmacia {
+            display: inline-block;
+            width: 300px;
+            height: 200px;
+        }
+
+        .rodape {
+            /* O valor none da propriedade display esconde o elemento, 
+            embora ele ainda exista na árvore DOM. */
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <article id="cursos">
+        <p class="engenharia">Engenharia</p>
+        <p class="farmacia">Farmácia</p>
+        <!-- href="#" retorna a mesma página -->
+        <a class="professores" href="#">Veja a lista de professores aqui</a>
+        <a class="Contato" href="#">Entre em contato</a>
+
+        <footer class="rodape">
+            Universidade Aprendaja
+        </footer>
+
+        <button class="botao">
+            Clique aqui para falar conosco
+        </button>
+
+        <p>Todos os direitos reservados.</p>
+
+    </article>
+
+
+
+
+
+
+</body>
+
+</html>
