@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding</title>
+
+    <style>
+        .primeiro,
+        .segundo {
+            width: 200px;
+            display: inline-block;
+            border: 2px solid black;
+            background-color: #CCC;
+        }
+
+        .primeiro {
+            padding: 20px;
+        }
+
+        /* 20 em cima/baixo //// 40 nos lados */
+        .segundo {
+            padding: 20px 400px;
+        }
+
+        article {
+            border: 2px solid blue;
+            padding: 30px;
+        }
+
+        /* geralmente não utilizamos padding no body */
+        body {
+            border: 2px solid black;
+            padding: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <p class="primeiro">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit debitis delectus veritatis aperiam atque
+            ratione commodi, at sunt iusto, ex quis quia pariatur nesciunt aliquam laborum est maiores mollitia culpa?
+        </p>
+        <p class="segundo">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quo rerum delectus impedit corporis
+            architecto totam omnis quaerat natus? Qui cumque quae autem, nihil eum pariatur quia voluptas nemo ad.
+        </p>
+    </article>
+</body>
+
+</html>
