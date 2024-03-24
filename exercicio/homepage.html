@@ -8,6 +8,8 @@
 </head>
 
 <body>
+
+
     <!-- cabecalho -->
     <div id="cabecalho">
         <header>
@@ -15,61 +17,70 @@
         </header>
     </div>
 
-    <div class="esquerda">
-        <!-- esquerda -->
-        <article>
-            <ul>
-                <li>Perfil</li>
-                <li>odasds</li>
-                <li>asdads</li>
-                <li>asdads</li>
-                <li>asdads</li>
-            </ul>
-        </article>
+    <div class="tudojunto">
+        <div class="esquerda">
+            <!-- esquerda -->
+            <article>
+                <ul>
+                    <li>Perfil</li>
+                    <li>Descritores</li>
+                    <li>Documentos</li>
+                    <li>Projetos</li>
+                    <li>Logout</li>
+                </ul>
+            </article>
+        </div>
+
+        <div class="centro">
+            <!-- central -->
+            <main id="me">
+                <label id="campo1"> <input type="text"></label>
+                <label id="campo2"> <input placeholder="Buscar..." type="text"></label>
+                <br>
+                <div class="opcesRadio">
+                    <label id="opcao2"> <input type="checkbox" name="opcoes"></label>
+                    <label id="opcao3"> <input type="checkbox" name="opcoes"></label>
+                    <label id="opcao4"> <input type="checkbox" name="opcoes"></label>
+                    <label id="opcao5"> <input type="checkbox" name="opcoes"></label>
+                    <label id="opcao6"> <input type="checkbox" name="opcoes"></label>
+                    
+                </div>
+
+                <!-- lista para o lado ...-->
+                <ul id="lista_nomes">
+                    <!-- <li>Maria Oliveira</li> -->
+                    João Silva <br>
+                    Maria Oliveira<br>
+                    Carlos André<br>
+                    João Silva <br>
+                    Maria Oliveira<br>
+                    Carlos André<br>
+                    João Silva<br>
+                </ul>
+            </main>
+        </div>
+
+        <!-- direita -->
+        <div class="direita">
+            <form>
+                <!-- <label for="fname">First name:</label><br> -->
+                <input class="inputs" placeholder="Título" type="text"><br>
+                <!-- <label for="lname">Last name:</label><br> -->
+                <input class="inputs" id="palavraChave" placeholder="Palavras Chave" type="text">
+                <textarea class="inputs" placeholder="Resumo" name="" id="resumo" cols="30" rows="5"></textarea>
+                <button id="btnEnviar">Enviar</button>
+            </form>
+        </div>
+
     </div>
-
-    <div>
-        <!-- central -->
-        <main id="me">
-            <p class="meio">campo 1</p>
-            <p class="meio">campo 2</p>
-
-            <!-- lista para o lado ...-->
-            <ul>
-                <li>Função 1</li>
-                <li>Função 2</li>
-                <li>Função 3</li>
-                <li>Função 4</li>
-                <li>Função 5</li>
-                <li>Função 6</li>
-            </ul>
-        </main>
-    </div>
-
-    <!-- direita -->
-    <div>
-        <form>
-            <!-- <label for="fname">First name:</label><br> -->
-            <input type="text"><br>
-            <br>
-            <!-- <label for="lname">Last name:</label><br> -->
-            <input type="text">
-            <br>
-            <br>
-            <textarea name="" id="" cols="30" rows="5"></textarea>
-            <br>
-            <button>enviar</button>
-        </form>
-    </div>
-
-
 
 
 
     <!-- rodape -->
-    <footer>
-        <p>rodape da página</p>
+    <footer id="rodape">
+        <p>2024 Minha Empresa - Todos os direitos reservados.</p>
     </footer>
+
 
 
 </body>
