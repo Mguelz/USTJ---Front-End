@@ -4,7 +4,7 @@
     margin: 0;
     display: block;
     height: 100px;
-    background-color: blue;
+    background-color: #007fff;
     padding-top: 15px;
     text-align: left;
     color: #fff;
@@ -26,9 +26,15 @@
 .esquerda {
     width: 150px;
     height: 700px;
-
 }
 
+#projetos {
+    width: 177px;
+}
+
+#imgPerfil, #imgDesc, #imgDoc, #imgProj, #imgLogout{
+    width: 15px;
+}
 
 /* -------- CENTRO --------*/
 .centro{
@@ -57,7 +63,7 @@
 }
 
 .direita #btnEnviar {
-    background-color: blue;
+    background-color: #007fff;
     /* Green */
     border: none;
     color: #fff;
@@ -66,10 +72,11 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    width: 705px;
 }
 
 .direita .inputs {
-    width: 500px;
+    width: 700px;
 }
 
 .direita #resumo {
@@ -84,12 +91,12 @@
 #rodape {
     display: block;
     height: 80px;
-    background-color: blue;
+    background-color:#007fff;
     padding-top: 15px;
     text-align: center;
     color: #fff;
 }
 
 body {
-    background-color: rgb(155, 173, 155);
+    background-color: rgb(191, 212, 191);
 }
