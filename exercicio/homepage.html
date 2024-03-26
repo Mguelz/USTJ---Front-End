@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Homepage</title>
+    <title>Descritores</title>
     <link rel="stylesheet" href="style/homepage.css">
 </head>
 
@@ -13,7 +13,7 @@
     <!-- cabecalho -->
     <div id="cabecalho">
         <header>
-            <h1>PPGS Text Corpus - Discritores</h1>
+            <h1>PPGS Text-Corpus - Discritores</h1>
         </header>
     </div>
 
@@ -22,11 +22,13 @@
             <!-- esquerda -->
             <article>
                 <ul>
-                    <li>Perfil</li>
-                    <li>Descritores</li>
-                    <li>Documentos</li>
-                    <li>Projetos</li>
-                    <li>Logout</li>
+                    <!-- <li>Perfil</li> -->
+                    <!-- colocar um icone na frente de cada linha -->
+                    <img id="imgPerfil" src="images/perfil.png" alt=""> Perfil
+                    <img id="imgDesc" src="images/descritores.png" alt=""> Descritores
+                    <img id="imgDoc" src="images/documentos.png" alt=""> Documentos
+                    <img id="imgProj" src="images/projetos.png" alt=""> Projetos
+                    <img id="imgLogout" src="images/logout.png" alt=""> Logout
                 </ul>
             </article>
         </div>
@@ -34,7 +36,15 @@
         <div class="centro">
             <!-- central -->
             <main id="me">
-                <label id="campo1"> <input type="text"></label>
+                <!-- <label id="campo1"> <input type="text"></label> -->
+
+                <select name="box_projeto" id="projetos">
+                    <option value="projeto">Escolha um Projeto</option>
+                    <option value="p1">Projeto 1</option>
+                    <option value="p2">Projeto 2</option>
+                    <option value="p3">Projeto 3</option>
+                </select>
+
                 <label id="campo2"> <input placeholder="Buscar..." type="text"></label>
                 <br>
                 <div class="opcesRadio">
@@ -43,7 +53,7 @@
                     <label id="opcao4"> <input type="checkbox" name="opcoes"></label>
                     <label id="opcao5"> <input type="checkbox" name="opcoes"></label>
                     <label id="opcao6"> <input type="checkbox" name="opcoes"></label>
-                    
+
                 </div>
 
                 <!-- lista para o lado ...-->
@@ -78,7 +88,7 @@
 
     <!-- rodape -->
     <footer id="rodape">
-        <p>2024 Minha Empresa - Todos os direitos reservados.</p>
+        <p> &copy 2024 Minha Empresa - Todos os direitos reservados.</p>
     </footer>
 
 
