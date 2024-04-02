@@ -44,3 +44,4 @@ Extensões para trabalhar
 Live Server
 material icon - icones android
 Prettier - code formatador
+Sonar - mostra erros no código
