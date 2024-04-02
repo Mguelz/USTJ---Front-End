@@ -42,3 +42,4 @@ neste repositório terá todos os meus estudos sobre front-end que tive contato 
 Extensões para trabalhar
 
 Live Server
+Sonar - mostra erros no código
