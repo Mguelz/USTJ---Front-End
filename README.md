@@ -42,3 +42,5 @@ neste repositório terá todos os meus estudos sobre front-end que tive contato 
 Extensões para trabalhar
 
 Live Server
+material icon - icones android
+Prettier - code formatador
