@@ -1,0 +1,41 @@
+.cabecalho {
+    text-align: center;
+}
+/* -------------------------- */
+
+.lb {
+    display: block;
+}
+
+.inputs{
+    height: 23px;
+    background-color: rgb(236, 234, 232);
+    border: rgb(51, 50, 49);
+}
+
+#inpNome{
+    width: 60%;
+}
+
+#idNome{
+    display: block;
+    
+}
+
+
+/* -------------------------- */
+.rodape {
+    height: 60px;
+    background-color: #a2b6cae5;
+    padding-left: 20px;
+}
+
+.btnCrud {
+    color: white;
+    background-color: #007fff;
+    border-color: #007fff;
+    align-items: center;
+}
+
+/* grid area */
+/* grid menu */
